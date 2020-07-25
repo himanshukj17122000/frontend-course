@@ -1,0 +1,9 @@
+.directory-menu {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* Add the blur effect */
+  filter: blur(0.3px);
+  -webkit-filter: blur(0.3px);
+}
