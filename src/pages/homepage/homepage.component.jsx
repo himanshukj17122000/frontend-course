@@ -22,7 +22,7 @@ const HomePage = ({ getItems, history }) => {
         <input
           type='text'
           name='text'
-          placeholder='Search Topics...'
+          placeholder='I want to learn about...'
           onChange={event => setProd(event.target.value)}
         />
         <input
