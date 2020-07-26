@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 
 export const CollectionItemContainer = styled.div`
-  width: auto;
+  width: 22vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   margin: 3vw;
-  height: auto;
+  height: 20vw;
   align-items: center;
   position: relative;
 
@@ -37,7 +37,7 @@ export const BackgroundImage = styled.div`
 
 export const CollectionFooter = styled.div`
   width: 100%;
-  height: auto;
+  height: 5%;
   display: flex;
   margin-bottom: 1vw;
   justify-content: space-between;
