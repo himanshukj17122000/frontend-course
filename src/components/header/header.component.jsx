@@ -10,10 +10,14 @@ const Header = () => (
     <Link className='logo-container' to='/'>
       <Logo className='logo' />
     </Link>
-    <h1>M i n e r v a</h1>
+    <div className='header-title'>
+    <h1>Minerva. 💡🧠📚</h1>
+    </div>
     <div className='options'>
       <Link className='option' to='/about'>
+        <h2>
         About
+        </h2>
       </Link>
     </div>
   </div>

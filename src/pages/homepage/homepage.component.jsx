@@ -22,18 +22,18 @@ const HomePage = ({ getItems, history }) => {
         <input
           type='text'
           name='text'
-          placeholder='I want to learn about...'
+          placeholder='I want to learn about...Biology? Jazz? Fractals?'
           onChange={event => setProd(event.target.value)}
         />
         <input
           type='submit'
-          value='Search'
+          value='Guide Me'
           className='btn btn-dark btn-block'
         />
       </form>
-      <div className='homepage'>
+      {/* <div className='homepage'>
         <Directory />
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -9,13 +9,22 @@
         height: 100%;
         width: 70px;
         padding: 25px;
+        align-items: baseline;
+    }
+    .header-title{
+        width: 50%;
+        color: rgb(9, 115, 177);
+        height: 100%;
+        display: flex;
+        align-items: baseline;
+        justify-content: flex-start;
     }
 
     .options {
         width: 50%;
         height: 100%;
         display: flex;
-        align-items: center;
+        align-items: baseline;
         justify-content: flex-end;
 
         .option {

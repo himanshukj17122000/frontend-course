@@ -11,8 +11,12 @@ export const CollectionItemContainer = styled.div`
   position: relative;
 
   &:hover {
+    cursor: pointer;
     .image {
       opacity: 0.8;
+      transform: scale(1.1);
+      opacity: 0.4;
+      transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
     }
 
     button {
@@ -48,4 +52,5 @@ export const SpanName = styled.span`
 export const SpanPrice = styled.span`
   width: auto;
   text-align: right;
+  color: red;
 `;

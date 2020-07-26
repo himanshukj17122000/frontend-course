@@ -132,6 +132,7 @@ input[type='text'],
 
 select,
 textarea {
+  font-family: 'Cousine', monospace;
   display: block;
   width: 100%;
   padding: 0.4rem;
@@ -141,5 +142,5 @@ textarea {
 
 input[type='submit'],
 button {
-  font: inherit;
+  font-family: 'Cousine', monospace;
 }
