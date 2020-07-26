@@ -4,7 +4,7 @@ const About = () => {
   return (
     <Fragment>
       <h1>About this App</h1>
-      <p>App to find top educational resources for a particular topic</p>
+      <p>A website to find top educational content for your topic of interest</p>
       <br />
       <p>Version: 1.0.0</p>
     </Fragment>
