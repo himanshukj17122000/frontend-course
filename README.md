@@ -1,68 +1,34 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## What it does
 
-## Available Scripts
+**We were inspired to build this since we feel that matching a curious mind to learning resources can be made more efficient.**
 
-In the project directory, you can run:
+We feel that there are a plethora of resources (MOOCs, Podcasts, Videos) out there that lack a centralized search engine to find the best content in line with the learner's needs. People around the world, especially students, are currently at home and are looking for ways to improve their skills! They try to take online courses for different skills but often end up confused - which one should I use? This website helps you by fetching tutorials + courses + books + more from different sources with the top content. This makes learning much easier and faster.
 
-### `yarn start`
+You can search for **courses, videos, books, and codebase** through our platform. We present all-encompassing learning resources for whatever you want to learn about!
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+**Example resources: Coursera, Udemy, Github, Youtube, Libgen.**
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## What We learned
+We learned how to integrate selenium in python and how to deploy selenium apps on Heroku. We had a working knowledge of flask but scraping using selenium was something that made the task much easier. This project helped us learn how to combine web scraping with web applications to display content dynamically. 
 
-### `yarn test`
+Integrating a React front with a Flask backend was also fun, and something we hadn't done before.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Inspiration
+This product has been built by students who have gone through the challenges of doing an online course. While looking for a course, we often got confused by which website to follow. While looking for courses on Udemy, we overlooked the courses on other websites like Coursera and Edx. This product allows the student to avoid that problem by presenting data from all the different websites and helping them with their course search. We were inspired by websites like Trivago, Expedia, etc. that look up information from all the different hotel websites and presents the user with the best options. 
 
-### `yarn build`
+We also allow you to diversify where you learn from!
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## How We built it
+We started with `BeautifulSoup` and `requests` to scrape data from static websites. We set up a `Flask` application to handle these scraping requests. We setup a pipeline to get information from the backend and present it in the frontend. We then integrated Selenium with our application and scraped data from dynamic websites. 
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+On the frontend, we used React components to make the webpages dynamic, reusable, and smooth. We then provisioned resources on Heroku and deployed the project in a container by using chromedriver and nginx plugins. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Challenges We ran into
+We had some challenges in publishing the project to Heroku since we are using a chromedriver and didn't know about how to provision resources for that. We also had some problems when we were just using BeautifulSoup to scrape websites since most websites used JavaScript to render information. We started using Selenium to scrape dynamic websites and had to work on making the search faster by optimizing the algorithm. 
 
-### `yarn eject`
+## What's Next
+We hope to make the search faster and diverse. 
+We also plan to expand this product to include more websites and work on similar products in the future!
+Another cool feature we want to go for is autocompleting in the search bar!
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+https://master.d381zdcnbbn5kn.amplifyapp.com
