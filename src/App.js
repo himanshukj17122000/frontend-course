@@ -18,7 +18,7 @@ const App = () => (
     </Switch>{' '}
     <footer>
       <div className='icons'>
-        <p> Made with 💙 by <a href= "https://www.himanshukj.me/" target="_blank">Himanshu Jain</a>, <a href = "https://aneeshgupta.me/" target = "_blank">Aneesh Gupta</a> and <a href = "https://www.linkedin.com/in/riadkanj/" target="_blank">Riad Kanj.</a></p>
+        <p> Made with 💙 by <a href= "https://www.himanshukj.me/" target="_blank" rel="noopener noreferrer">Himanshu Jain</a>, <a href = "https://aneeshgupta.me/" target = "_blank" rel="noopener noreferrer">Aneesh Gupta</a> and <a href = "https://www.linkedin.com/in/riadkanj/" target="_blank" rel="noopener noreferrer">Riad Kanj.</a></p>
       </div>{' '}
     </footer>{' '}
   </Provider>
