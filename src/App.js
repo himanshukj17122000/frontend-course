@@ -14,11 +14,11 @@ const App = () => (
     <Switch>
       <Route exact path='/' component={HomePage} />{' '}
       <Route path='/products' component={Projects} />{' '}
-      <Route path='/about' component={About} />
+      <Route path='/about' component={About} />{' '}
     </Switch>{' '}
     <footer>
       <div className='icons'>
-        <p>👨‍💻 Made by Himanshu Jain and Aneesh Gupta</p>
+        <p> 👨‍💻Made by Himanshu Jain, Aneesh Gupta, and Riad Kanj </p>{' '}
       </div>{' '}
     </footer>{' '}
   </Provider>
